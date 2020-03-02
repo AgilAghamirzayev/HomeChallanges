@@ -21,6 +21,7 @@ public class JavaObjectSorting {
         strList.add("B");
         strList.add("Z");
         strList.add("E");
+
         Collections.sort(strList);
         for (String str: strList) System.out.print(" "+str);
 
