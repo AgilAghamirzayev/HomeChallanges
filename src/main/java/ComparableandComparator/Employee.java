@@ -3,7 +3,7 @@ package ComparableandComparator;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class Employee implements Comparable<Employee> {
+public class  Employee implements Comparable<Employee> {
     private int id;
     private String name;
     private int age;
@@ -11,6 +11,11 @@ public class Employee implements Comparable<Employee> {
 
     public int getId(){
         return id;
+    }
+
+    public Employee(String name, long salary) {
+        this.name = name;
+        this.salary = salary;
     }
 
     public String getName() {

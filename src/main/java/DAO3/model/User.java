@@ -1,10 +1,8 @@
-package DAO;
+package DAO3.model;
 
 public class User {
-
     private String name;
     private String email;
-
 
     public User(String name, String email) {
         this.name = name;
